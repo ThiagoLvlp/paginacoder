@@ -7,43 +7,76 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../Css/styles.css">
-    <link rel="shortcut icon" href="./assets/img/logoblancotitulo1.png">
+    <link rel="shortcut icon" href="../assets/img/logoblancotitulo1.png">
     <title>Gz - Galeria</title>
 </head>
 <body class="bodyfotos">  
     <header>
-        <div>
-            <img src="../assets/img/logoblanconav.png" alt="logo" class="logo">
-            <nav>
-                <a href="../index.html" class="navegador" > Inicio</a>
-                <a href="./nosotros.html" class="navegador"> Nosotros</a>
-                <a href="#" class="navegador" > Fotos</a>
-                <a href="./Dondeestamos.html" class="navegador" > Donde Estamos</a>
-                <a href="./contacto.html" class="navegador" > Contacto </a>
-            </nav> 
-        </div>     
+        <nav class="navbar navbar-expand-lg navbar-light bg-darklight">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+               <img src="../assets/img/logoblanconav.png" alt="logo" class="logo">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav bs-blue">
+                  <li class="nav-item d-flex">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./fotos.html">Fotos</a>
+                  </li>
+                     <a class="nav-link" href="./dondeestamos.html">Ubicacion</a>
+                  </li>
+                </li>
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+                </ul>
+              </div>
+            </div>
+          </nav>  
     </header>
     <main>
-        <h1 class="titlegaleria"> Galeria</h1>
-    <section class="fotos">
-        <table>
-            <tr><img src="../assets/img/Fotos/Galeria/Fotos Galeria/Inverrnadero.jpeg" width="1340px" > </tr>
-                <h1> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus eius alias iste, excepturi assumenda inventore nesciunt ullam repellat enim adipisci, laboriosam, placeat accusamus cumque repellendus libero voluptatem exercitationem quos tempora?</h1>
-            <tr><img src="../assets/img/Fotos/Galeria/Fotos Galeria/Polietilenos.jpg" width="1340px" ></tr>
-                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nulla accusamus dicta praesentium quod quaerat earum autem veritatis ratione blanditiis magnam, dolorum voluptates natus perferendis adipisci necessitatibus officiis non ad.</h2>
-            <tr><img src="../assets/img/Fotos/Galeria/Fotos Galeria/Postes Eucaliptus.jpg" width="1340px" ></tr>
-                <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet voluptatum similique sit laudantium dolorum quam inventore, laboriosam explicabo voluptates nemo est, tempora provident in vel iusto delectus sint fugit deserunt?</h3>
-            <tr><img src="../assets/img/Fotos/Galeria/Fotos Galeria/Cinta Goteo.jpg" width="1340px" ></tr>
-                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita tempora ex vel dolore nisi temporibus obcaecati omnis assumenda laudantium at reiciendis, rem quo architecto odit est quis ducimus autem iste!</h4>
-            <tr><img src="../assets/img/Fotos/Galeria/Fotos Galeria/Hilos.jpg" width="1340px"></tr>
-                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui officiis, odio perspiciatis magnam in explicabo delectus vel velit voluptatibus accusamus laboriosam, officia asperiores facilis veniam. Modi enim nostrum delectus earum?</h5>
-            <tr><img src="../assets/img/Fotos/Galeria/Fotos Galeria/Tractor.jpeg" width="1340px" ></tr>
-                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptate in enim. Sunt, dolorum laudantium voluptate reprehenderit id possimus exercitationem odio facilis sapiente nam nisi recusandae, veniam libero dicta eveniet.</h6>
-        </table>
-    </section>
-
+        <div class="card bg-dark text-white">
+            <img src="../assets/img/Fotos/Galeria/Fotos Galeria/Polietilenos.jpg" class="card-img" alt="imgtractor">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Polietilenos "Agroman"</h5>
+              <p class="card-text">tenemos los mejores polietilenos del mercado, de primera calidad y al mejor precio.</p>
+            </div>
+          </div>
+    <div class="card bg-dark text-white">
+        <img src="../assets/img/Fotos/Galeria/Fotos Galeria/Hilos.jpg" class="card-img" alt="imgtractor">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Hilos de Poliprotileno</h5>
+          <p class="card-text">altamente resistente a la accion de la interperie, agentes bacterianos , ácidos y alcaninos.</p>
+        </div>
+      </div>
+    <div class="card bg-dark text-white">
+        <img src="../assets/img/Fotos/Galeria/Fotos Galeria/Cinta Goteo.jpg" class="card-img" alt="imgtractor">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Irritec Tape®</h5>
+          <p class="card-text">es una cinta de riego con sistema de laberinto continuo, que se adapta a los diferentes cultivos en campo abierto e invernadero, asegurando una excelente uniformidad en la distribución de agua y fertilizantes para obtener incrementos en la calidad y producción de su cultivo.</p>
+        </div>
+      </div>
+    <div class="card bg-dark text-white">
+        <img src="../assets/img/Fotos/Galeria/Fotos Galeria/Postes Eucaliptus.jpg" class="card-img" alt="imgtractor">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Madera de eucaliptus</h5>
+          <p class="card-text">Resistencia y durabilidad para los postes y lineales de tus invernaderos.</p>
+        </div>
+      </div>
+    <div class="card bg-dark text-white">
+        <img src="../assets/img/Fotos/Galeria/Fotos Galeria/Tractor.jpeg" class="card-img" alt="imgtractor">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Envios a todo el pais</h5>
+          <p class="card-text">Haciendo envios a todos nuestro pais , llegando a todos los rincones de nuestro pais.</p>
+        </div>
+      </div>
     </main>
-    <hr>
     <footer>
         <h1 class="contactof">Contactanos Via</h1>
             <ul class="hipervinculos">

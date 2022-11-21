@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./Css/styles.css">
     <link rel="shortcut icon" href="./assets/img/logoblancotitulo1.png">
     <title>Gz Maderas para invernaderos</title>
@@ -11,47 +13,111 @@
 <body>
 <section class="fondo">
     <header>
-        <div>
-            <img src="./assets/img/logoblanconav.png" alt="logo" class="logo">
-            <nav>
-                <a href="#" class="navegador" > Inicio</a>
-                <a href="./pages/nosotros.html" class="navegador"> Nosotros</a>
-                <a href="./pages/fotos.html" class="navegador" > Fotos</a>
-                <a href="./pages/dondeestamos.html" class="navegador" > Donde Estamos</a>
-                <a href="./pages/contacto.html" class="navegador" > Contacto </a>
-            </nav> 
-        </div>     
+        <nav class="navbar navbar-expand-lg navbar-light bg-darklight">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+               <img src="./assets/img/logoblanconav.png" alt="logo" class="logo">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav bs-blue">
+                  <li class="nav-item ">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/fotos.html">Fotos</a>
+                  </li>
+                     <a class="nav-link" href="./pages/dondeestamos.html">Ubicacion</a>
+                  </li>
+                </li>
+                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                </li>
+                </ul>
+              </div>
+            </div>
+          </nav>  
     </header>
     <section class="fronttitle">
-        <img src="./assets/img/logoblancotitulo1.png" alt="imagentitulo" class="imgtitulo">
-        <div class="titulo1"><h1>Maderas para invernaderos Gerardo Zitti</h1></div>
-        <div class="titulo2"><h2>Nos dedicamos a la venta de maderas de eucaliptus y saligna,</div>
-        <div class="titulo3"><h2>dedicado especialmente a la venta para la construcción de invernaderos</h2></div>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/img/Fotos/Galeria/Fotos Galeria/Postes Eucaliptus.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Maderera Gerardo Zitti</h5>
+                  <p>Acompañando tu crecimiento , nos dedicamos a la venta de maderas de eucaliptus y saligna, dedicado especialmente a la venta para la construcción de invernaderos brindando el mejor asesoramiento y soluciones para cada proyecto, con mas de 15 años en el mercado con buen servicio a particulares y grandes emprendedores</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/Fotos/Galeria/Fotos Galeria/Canaletas.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Polietileno Agroman</h5>
+                  <p>El film de polietileno de Larga Duración Agroman generalmente es utilizado para canaletas y zócalos. Está formulado con aditivos que protegen al material de las altas temperaturas y de la radiación UV.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/Foto Cristian.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Envios a todo el pais.</h5>
+                  <p>Hacemos envíos a todo el país a través de nuestro camiones. Llegando a todos los rincones de nuestro pais.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
     </section>
-    <section class="horariost">
-        <div class=horarios1><h1>Horarios de atencion</h1></div>
-        <div class=horarios2><h2>Lunes a viernes de 7:30hs a 16:30hs</h2></div>
-        <div class=horarios3><h3>Sabados de 7:30hs a 16:30hs</h3></div>
-    </section>
-</section>
 <section class="fondotf">
 <main>
-    <table>
-        <thead>
-            <tr class="titulos">
-                <th>Entregas a domicilio</th>
-                <th>Horarios</th>
-                <th>Servicio y atención</th>
-            </tr>
-        <tbody>
-            <tr class="subtitulos">
-                <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur sint corporis explicabo, natus, pariatur eum ratione quod aperiam veniam, est dolorum rem veritatis id cupiditate? Hic non quod corrupti dignissimos?</td>
-                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, fugit obcaecati vel odio soluta facilis architecto optio ipsum doloremque beatae in ad minus esse aut iste magnam veniam eos mollitia.</td>
-                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quibusdam impedit accusantium vel rem vitae ab ut iste, dolorem officia nemo laudantium dolor illum quaerat, quis voluptatum, assumenda beatae inventore!</td>
-            </tr>
-        </tbody>    
-        </tr>
-    </table>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Contacto</h5>
+              <p class="card-text">Podes contactarnos a travez de Facebook, Instagram y Whatsapp .</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Envios a todo el pais</h5>
+              <p class="card-text">Realizando envios a todos los puntos del pais y contamos con nustros propios camiones para el reparto zonal.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">  
+            <div class="card-body">
+              <h5 class="card-title">Primeras Marcas</h5>
+              <p class="card-text">Trabajamos con las primeras marcas del mercado siempre la major calidad.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Asesoramiento y atencion</h5>
+              <p class="card-text">Contamos con la experiencia para asesorarte en las construciones de tus invernaderos</p>
+            </div>
+          </div>
+        </div>
+      </div>
 </main>
     <hr>
 <footer>
@@ -81,5 +147,6 @@
         </div>
 </section>                     
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
