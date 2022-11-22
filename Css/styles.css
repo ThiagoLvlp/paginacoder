@@ -236,3 +236,14 @@ form h1 {
     background-color: black !important;
     color: darkgray;
 }
+.card-img-overlay :hover{
+    background-color: rgba(0, 0, 0, 0.493);
+    font-size: 1.5rem;
+}
+@media (min-width: 576px) {
+    .hipervinculof { 
+        margin-left: 0mm;
+        text-align: center !important;
+    }
+    }
+    
