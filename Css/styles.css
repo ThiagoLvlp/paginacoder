@@ -241,9 +241,15 @@ form h1 {
     font-size: 1.5rem;
 }
 @media (min-width: 576px) {
-    .hipervinculof { 
-        margin-left: 0mm;
-        text-align: center !important;
+    .hipervinculos { 
+        display: block;
+        justify-content: center !important;
+        padding-left: 80px;
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 125px;
+        margin-left: 200px;
+        
     }
     }
     
